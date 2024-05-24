@@ -602,7 +602,7 @@ header .navbar .link-btn {
     color: #fff;
 }
 .btn-two:hover {
-    color: black;
+    color: white;
 }
 .btn-one span,
 .btn-two span {
@@ -745,7 +745,7 @@ header .navbar .link-btn {
     color: white;
 }
 .Navlist a:hover {
-    color: #0e1927;
+    color: #ffffff82 !important;
 }
 .text-primary {
     color: #0e1927 !important;
