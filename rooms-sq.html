@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="sq">
 
@@ -5,10 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Apartamenti - Marin Bougainville Apartament, Sarandë, Shqipëri</title>
-    <meta name="description"
-        content="Zbuloni pushimin perfekt në Marin Bougainville Apartament në Sarandë, Shqipëri. Apartamenti ynë me një dhomë gjumi ofron komoditetin me shërbime duke përfshirë një kuzhinë të plotësisht e pajisur, TV, WiFi falas, kondicioner ajri, banjë private, dhe një ballkon.">
-    <meta name="keywords"
-        content="Apartamenti - Marin Bougainville Apartament, Sarandë, Shqipëri, Apartament me një dhomë gjumi , Kuzhinë , TV , WiFi falas, Kondicioner , Banjë Private , Ballkon">
+    <meta name="description" content="Zbuloni pushimin perfekt në Marin Bougainville Apartament në Sarandë, Shqipëri. Apartamenti ynë me një dhomë gjumi ofron komoditetin me shërbime duke përfshirë një kuzhinë të plotësisht e pajisur, TV, WiFi falas, kondicioner ajri, banjë private, dhe një ballkon.">
+    <meta name="keywords" content="Apartamenti - Marin Bougainville Apartament, Sarandë, Shqipëri, Apartament me një dhomë gjumi , Kuzhinë , TV , WiFi falas, Kondicioner , Banjë Private , Ballkon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/icon/logo-black.png">
     <!--Font-Awasome-->
@@ -88,8 +87,10 @@
                         <div class="slider-container1">
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><img src="assets/image/1.jpg" alt="Imazhi i Dhomës 1"></div>
-                                    <div class="swiper-slide"><img src="assets/image/10.jpg" alt="Imazhi i Dhomës 4"></div>
+                                    <div class="swiper-slide"><img src="assets/image/4.jpg" alt="Room Image 1"></div>
+                                    <div class="swiper-slide"><img src="assets/image/9.jpg" alt="Room Image 1"></div>
+                                    <div class="swiper-slide"><img src="assets/image/24.jpg" alt="Room Image 1"></div>
+                                    <div class="swiper-slide"><img src="assets/image/25.jpg" alt="Room Image 1"></div>
                                 </div>
                                 <!-- Add Arrows -->
                                 <div class="swiper-button-next"></div>
@@ -164,8 +165,10 @@
                     <div class="slider-container">
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="assets/image/3.jpg" alt="Imazhi i Dhomës 1"></div>
-                                <div class="swiper-slide"><img src="assets/image/4.jpg" alt="Imazhi i Dhomës 4"></div>
+                                <div class="swiper-slide"><img src="assets/image/26.jpg" alt="Room Image 1"></div>
+                                <div class="swiper-slide"><img src="assets/image/28.jpg" alt="Room Image 1"></div>
+                                <div class="swiper-slide"><img src="assets/image/32.jpg" alt="Room Image 1"></div>
+                                <div class="swiper-slide"><img src="assets/image/34.jpg" alt="Room Image 4"></div>
                             </div>
                             <!-- Add Arrows -->
                             <div class="swiper-button-next"></div>
@@ -253,16 +256,32 @@
     <!--Scripti im-->
     <script src="main.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            loop: true, // Enable loop mode
-            autoplay: {
-                delay: 5000, // Autoplay every 5 seconds
-                disableOnInteraction: false, // Continue autoplay even if the user interacts with the swiper
-            },
-            // Add navigation buttons
+        var swiper = new Swiper('.swiper-container', {
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 5000, // 5000ms = 5 seconds
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper('.swiper-container1', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 5000, // 5000ms = 5 seconds
+                disableOnInteraction: false,
             },
         });
     </script>
